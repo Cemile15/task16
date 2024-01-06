@@ -1,0 +1,568 @@
+.container {
+  max-width: 1400px;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.rr1 {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rr1 .rr2 {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.rr1 .rr2 .rr3 {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.rr1 .rr2 .rr3 li {
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+}
+.rr1 .rr2 .rr3 .rr4 {
+  font-size: 25px;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.rr5 {
+  width: 100%;
+  background-color: rgb(199, 199, 199);
+}
+.rr5 .rr6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.rr5 .rr7 {
+  width: 600px;
+  height: 250px;
+}
+.rr5 .rr8 {
+  overflow: hidden;
+}
+.rr5 .rr8 :hover {
+  transform: scale(1.1);
+}
+.rr5 h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+.rr5 .yazi {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(75, 74, 74);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.rr5 .rr9 :hover {
+  background-color: brown;
+  border: none;
+  cursor: pointer;
+}
+.rr5 .rr10 {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(62, 61, 61);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.rr11 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rr11 .rr12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.rr11 .rr13 {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rr11 .rr13 .photo :hover {
+  transform: scale(1.1);
+}
+.rr11 .rr13 h3 {
+  color: rgb(68, 66, 66);
+  font-size: 30px;
+  text-align: center;
+}
+.rr11 .rr13 .pul {
+  font-size: 25px;
+  font-family: 800;
+  color: brown;
+  text-align: center;
+}
+.rr11 .rr14 {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+}
+.rr11 .rr15 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.rr11 .rr16 {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+}
+.rr11 .rr17 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.rr11 .rr18 {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+}
+
+.rr20 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.rr20 .rolex5 {
+  width: 550px;
+  height: 480px;
+}
+.rr20 .rolex3 {
+  width: 350px;
+}
+.rr20 .rr23 {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-direction: column;
+}
+.rr20 .rolex6 {
+  width: 300px;
+}
+.rr20 .rolex4 {
+  width: 300px;
+}
+.rr20 .rr21 :hover {
+  transform: scale(1.1);
+}
+.rr20 .rr22 :hover {
+  transform: scale(1.1);
+}
+.rr20 .rr24 :hover {
+  transform: scale(1.1);
+}
+.rr20 .rr25 :hover {
+  transform: scale(1.1);
+}
+
+.ff2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.ff2 .ff3 {
+  width: 650px;
+}
+.ff2 h4 {
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.ff2 .yazi2 {
+  color: grey;
+  font-size: 30px;
+  text-align: center;
+}
+.ff2 .ff4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ff2 .ff5 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ff2 .saat1 {
+  width: 300px;
+  height: 330px;
+}
+.ff2 h6 {
+  font-size: 20px;
+  text-align: center;
+  font-family: inherit;
+}
+.ff2 .money {
+  font-size: 25px;
+  color: gray;
+}
+.ff2 .ff6 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ff2 .ff7 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ff2 .ff8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ff2 .ff8 .ff9 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ff2 .ff10 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ff2 .ff11 {
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.tt2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tt2 .tt3 {
+  width: 550px;
+}
+.tt2 .tt3 h5 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tt2 .tt3 .text {
+  font-size: 25px;
+  text-align: left;
+  color: grey;
+}
+.tt2 .tt3 .tt5 {
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+}
+.tt2 .tt6 {
+  width: 500px;
+}
+.tt2 .tt4 :hover {
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+}
+
+.tt2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tt2 .tt3 {
+  width: 550px;
+  height: 400px;
+}
+.tt2 .tt3 .rolex7 {
+  width: 400px;
+}
+.tt2 .tt6 {
+  width: 500px;
+  height: 400px;
+}
+.tt2 .tt6 .text {
+  font-size: 20px;
+  color: grey;
+}
+.tt2 .tt6 .tt4 {
+  width: 80px;
+  height: 40px;
+}
+.tt2 .tt6 .tt5 {
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+}
+.tt2 .tt6 h5 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tt2 .tt6 .text {
+  font-size: 25px;
+  text-align: left;
+  color: grey;
+}
+.tt2 .tt4 :hover {
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+}
+
+.tt2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tt2 .tt3 {
+  width: 550px;
+  height: 400px;
+}
+.tt2 .tt4 {
+  width: 80px;
+  height: 40px;
+}
+.tt2 .tt6 {
+  width: 500px;
+  height: 400px;
+}
+.tt2 .rolex7 {
+  width: 400px;
+  height: 400px;
+}
+.tt2 h5 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tt2 .text {
+  font-size: 20px;
+  color: grey;
+}
+.tt2 .tt5 {
+  width: 160px;
+  height: 60px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+.tt7 {
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+.tt7 .tt8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.tt7 .tt8 .tt9 {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+.tt7 .tt10 {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+.tt7 .tt11 {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+.tt7 i {
+  font-size: 40px;
+}
+.tt7 .hh1 {
+  width: 250px;
+  height: 90px;
+}
+.tt7 .hh1 h6 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.tt7 .hh1 .text3 {
+  color: white;
+  font-size: 20px;
+}
+
+.ll2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+.ll2 .ll3 {
+  width: 300px;
+  height: 300px;
+}
+.ll2 .name {
+  font-size: 20px;
+  text-align: center;
+}
+.ll2 .jj {
+  font-size: 25px;
+  color: gray;
+}
+.ll2 .ll4 {
+  list-style: none;
+}
+.ll2 .dd {
+  font-size: 20px;
+  margin: 10px;
+  color: gray;
+}
+
+.son {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.son .pp {
+  width: 100%;
+  height: 20px;
+}
+.son .pp .stext {
+  text-align: center;
+  font-size: 25px;
+}
+.son .pp .stext .bi {
+  color: red;
+}
+.son .xx {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+.son .xx i {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .rr2 {
+    display: none;
+  }
+  .rr3 {
+    display: none;
+  }
+  .rr20 {
+    flex-direction: column;
+  }
+  .ff4 {
+    flex-direction: column;
+  }
+  .ff8 {
+    flex-direction: column;
+  }
+  .ff9 {
+    flex-direction: column;
+  }
+  .ff10 {
+    flex-direction: column;
+  }
+  .ff11 {
+    flex-direction: column;
+  }
+  .tt2 {
+    flex-direction: column;
+  }
+  .tt6 {
+    flex-direction: column;
+  }
+  .tt7 {
+    flex-direction: column;
+  }
+  .tt8 {
+    flex-direction: column;
+  }
+  .ll2 {
+    flex-direction: column;
+  }
+  .son {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
